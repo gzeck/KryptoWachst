@@ -1,2 +1,2 @@
 # KryptoWachst
-Crypto Investment interface
+Crypto Investment Interface
