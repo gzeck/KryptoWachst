@@ -1,0 +1,7 @@
+MVP Minimum Viable Product
+Build test scenarios based upon extracted data from CoinBase
+Build test cases purchase buys, over span of 5 years (2013-2018)
+Pull hourly data from https://www.coindesk.com/price/ [can we write a script that will access this site, 
+pull data from every hour of every day for the last 5 years, push into excel to be able to analyze trends]
+5 Years, hours/15 minute - pulls. Ask Jono. Spreadsheet column 1 of all timed data.
+KryptoWächst // KrytpoWachst
