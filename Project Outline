@@ -1,0 +1,59 @@
+The Problem: 
+I want to invest into cryptocurrency but I don't know the best time to buy to maximize my investment and I dont have the time to research market trends.  I am risk averse and dont have the time or the knowledge of the market to best make use of my money but don't want to miss out on investing in an impactful new ecosystem.
+
+
+The Solution: 
+A service that partners with you to identify the best time to buy in on your scheduled payments to maximize your value.  When you tell us how much you would like to invest on a daily/weekly/monthly basis we will analyze historical pricing patterns as well as safeguarding against massive growth patterns as has been the recent trend, to help secure you an effective buy order that will beat the average purchase price had you tried to handle this on your own. 
+
+
+Why Us?:
+We are watching and constantly evolving our approach, using the power of analytics to assess and act upon the pricing patterns that are not readily discernible to the new or experienced investor.  Something like this would take hours or days at a time to research, and you might miss the opportunity you were looking for.  Investing in such a relatively new area such as cryptocurrency requires a steady hand and as much information as you can gather to help protect your actions.  We take care of both of these for you so you can sit back and watch your dollar stretch farther than you could have ever anticipated.
+
+
+Value Proposition:
+We will create a platform that allows for new and experienced users to leverage analytics to improve their chances of having a better ROI in this dynamic and ever evolving crypto space.  In doing so we will support ourselves and the services we provide
+
+
+Features:
+  * Integration with your Coinbase account to buy for you with the most up to date information automatically and requiring    us to never have to store your personal information.
+  * Custom buy scheduler that allows you to identify your investing strategy.  Do you want to buy frequently or more conservatively?  Set your maximum buy amounts so that you know with certainty what you are budgeting for your investments.
+Access to Educational Materials related to the currencies we work with as well as a broader scope platform that outlines pricing and education around 	up and coming investment opportunities
+  * Analytics to show how your investment strategy is paying off with easy to digest ROI calculations that keeps track and updates for you automatically
+
+What Do We Need to Get There:
+
+A Data Source
+  * Coinbase will be the primary conduit for obtaining price information and for initiating buy/sell orders
+  * Alternative sources to research for Pricing
+    * Coinmarketcap
+    * Bittrex/Binance/combination of international exchanges
+  * Alternative sources to research for buy/sell orders
+  * Bittrex/Binance/combination of international exchanges
+A Data Storage Solution
+  * AWS or Google cloud solutions
+  * A way to ETL Data in a way that allows us to easily manipulate
+  * Python to extract/transform/load information into database
+Analyze Data Sets and determine ways to properly weight for market conditions
+  * Python with math/statistical analysis libraries
+  * A Web Application that can be ported to iOS and Android
+  * Ionic or some other flavor of javascript
+Built in tracking/monitoring for usage metrics(GA/Inspectlet)
+Marketing/Branding Strategy to raise awareness  
+  * Brand will either be MyCryptoWatcher or CryptoWatcher
+  * URLS secured: MyCryptoWatcher.live :: CryptoWatcher.live
+  * Marketing plan includes reddit/social media ad buys and viral marketing through promotions and giveaways through online media channels
+  * Strategic partnership with twitch streamers?
+  * Ads on subreddits?
+  * Any popular blogs to interview with?
+Research Funding and become official entity
+  * What do we need to budget for in order to release a stable v1
+Pricing Model Determined
+  * App Purchase
+  * App Purchase + monthly fee
+  * Free + monthly fee
+  * App purchase + % of monthly profit
+  * Free + % of monthly profit
+  * Add supported 
+
+
+Identify Media Sentiment through news article scraping and social media and date of publish to partner with analysis?
