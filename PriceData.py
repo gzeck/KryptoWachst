@@ -61,3 +61,13 @@ def get_ltcsell_price(self, currency_pair):
     timestamp = datetime.datetime.now()
     price_stamp = "Sell Price: $%s Timestamp: %s" %(sell_price.amount, timestamp)
     return(price_stamp)
+
+print(get_btcbuy_price(my_client, currency_pair="BTC-USD"))
+print(get_btcsell_price(my_client, currency_pair="BTC-USD"))
+print(get_btcspot_price(my_client, currency_pair="BTC-USD"))
+print(get_ethbuy_price(my_client, currency_pair="BTC-USD"))
+print(get_ethbuy_price(my_client, currency_pair="BTC-USD"))
+print(get_ethbuy_price(my_client, currency_pair="BTC-USD"))
+print(get_ltcbuy_price(my_client, currency_pair="BTC-USD"))
+print(get_ltcsell_price(my_client, currency_pair="BTC-USD"))
+print(get_ltcspot_price(my_client, currency_pair="BTC-USD"))
