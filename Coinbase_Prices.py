@@ -8,7 +8,7 @@ import csv
 from coinbase.wallet.client import *
 import sys
 
-
+# Need to enter new api key and secret 
 my_client = Client(api_key="api_key", api_secret="secret", api_version="https://api.coinbase.com/"+'"2018-01-13')
 
 def get_btcbuy_price(self, currency_pair):
