@@ -85,12 +85,12 @@ f.write(','.join(get_ltcspot_price(my_client, currency_pair='LTC-USD'))+'\n')
 f.write(','.join(get_ltcsell_price(my_client, currency_pair='LTC-USD'))+'\n')
 f.close()
 
-print ','.join(get_btcbuy_price(my_client, currency_pair='BTC-USD'))+'\n'
-print ','.join(get_btcspot_price(my_client, currency_pair='BTC-USD'))+'\n'
-print ','.join(get_btcsell_price(my_client, currency_pair='BTC-USD'))+'\n'
-print ','.join(get_ethbuy_price(my_client, currency_pair='ETH-USD'))+'\n'
-print ','.join(get_ethspot_price(my_client, currency_pair='ETH-USD'))+'\n'
-print ','.join(get_ethsell_price(my_client, currency_pair='ETH-USD'))+'\n'
-print ','.join(get_ltcbuy_price(my_client, currency_pair='LTC-USD'))+'\n'
-print ','.join(get_ltcspot_price(my_client, currency_pair='LTC-USD'))+'\n'
-print ','.join(get_ltcsell_price(my_client, currency_pair='LTC-USD'))+'\n'
+print ','.join(get_btcbuy_price(my_client, currency_pair='BTC-USD'))
+print ','.join(get_btcspot_price(my_client, currency_pair='BTC-USD'))
+print ','.join(get_btcsell_price(my_client, currency_pair='BTC-USD'))
+print ','.join(get_ethbuy_price(my_client, currency_pair='ETH-USD'))
+print ','.join(get_ethspot_price(my_client, currency_pair='ETH-USD'))
+print ','.join(get_ethsell_price(my_client, currency_pair='ETH-USD'))
+print ','.join(get_ltcbuy_price(my_client, currency_pair='LTC-USD'))
+print ','.join(get_ltcspot_price(my_client, currency_pair='LTC-USD'))
+print ','.join(get_ltcsell_price(my_client, currency_pair='LTC-USD'))
