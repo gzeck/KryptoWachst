@@ -9,7 +9,7 @@ from coinbase.wallet.client import *
 import sys
 
 # Need to enter new api key and secret 
-my_client = Client(api_key="SKuPyYAGVLuq6QGA", api_secret="kFiOHUMNTeJZD7dT0KqQ8HEOIrffsFcs", api_version="https://api.coinbase.com/"+"2018-01-13")
+my_client = Client(api_key="SKuPyYAGVLuq6QGA", api_secret="kFiOHUMNTeJZD7dT0KqQ8HEOIrffsFcs", api_version="2018-01-13")
 
 # Get Datetime info
 year = datetime.datetime.now().strftime("%Y")
