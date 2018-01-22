@@ -17,7 +17,7 @@ month = datetime.datetime.now().strftime("%m")
 day = datetime.datetime.now().strftime("%d")
 hour = datetime.datetime.now().strftime("%H")
 minute = datetime.datetime.now().strftime("%M")
-second = datetime.datetime.now().strftime("%s")
+second = datetime.datetime.now().strftime("%S")
 
 def get_btcbuy_price(self, currency_pair):
     buy_price = my_client.get_buy_price(currency_pair = 'BTC-USD')
